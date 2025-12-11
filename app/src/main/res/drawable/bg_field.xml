@@ -1,0 +1,42 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="1080dp"
+    android:height="1920dp"
+    android:viewportWidth="1080"
+    android:viewportHeight="1920">
+
+    <!-- Sky -->
+    <path
+        android:fillColor="#87CEEB"
+        android:pathData="M0,0h1080v960h-1080z" />
+
+    <!-- Sun -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M900,180a100,100 0 1,0 200,0a100,100 0 1,0 -200,0" />
+
+    <!-- Soil -->
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M0,1440h1080v480h-1080z" />
+
+    <!-- Crop rows (green) -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M0,960l60,480h40l-60,-480z
+                          M100,960l60,480h40l-60,-480z
+                          M200,960l60,480h40l-60,-480z
+                          M300,960l60,480h40l-60,-480z
+                          M400,960l60,480h40l-60,-480z
+                          M500,960l60,480h40l-60,-480z
+                          M600,960l60,480h40l-60,-480z
+                          M700,960l60,480h40l-60,-480z
+                          M800,960l60,480h40l-60,-480z
+                          M900,960l60,480h40l-60,-480z
+                          M1000,960l60,480h40l-60,-480z" />
+
+    <!-- Optional small clouds -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M200,200a50,30 0 1,0 100,0a50,30 0 1,0 -100,0
+                          M400,300a40,25 0 1,0 80,0a40,25 0 1,0 -80,0" />
+</vector>
