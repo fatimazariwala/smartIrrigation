@@ -27,5 +27,5 @@
 - Decryption happens at each subscriber for secure access
 
   ## Author
-  *Aditya Gupta*
+  *Aditya Gupta*,
   *Fatima Zariwala*
