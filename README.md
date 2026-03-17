@@ -2,6 +2,8 @@
 
 **This project implements an IoT-based smart irrigation system using ESP32 modules, MQTT protocol, and ChaCha-Poly encryption for secure data transmission.**
 
+<img width="1257" height="890" alt="Screenshot 2026-03-17 at 9 17 49 PM" src="https://github.com/user-attachments/assets/b56fdeb2-5832-49f5-a8b0-f3d0cb957ed2" />
+
 ## Sensors Used
 - **Temperature sensor** - Monitors environmental temperature changes
 - **Humidity sensor** - Detects humidity variations
@@ -23,3 +25,7 @@
 - Data encrypted at publisher before transmission
 - Key exchange performed upon subscriber connection
 - Decryption happens at each subscriber for secure access
+
+  ## Author
+  *Aditya Gupta*
+  *Fatima Zariwala*
